@@ -202,7 +202,7 @@ def create_usr_vm():
 		
 		for i in cvm_status2['value']:
 			cvm_status3 = i['properties']['status']
-#			print cvm_status3
+			print cvm_status3
 		
 		while ( cvm_status3 == "Create_In_Progress"):
 			print (time.strftime("%Y-%m-%d %H:%M:%S")) + " - " + cvm_status3
