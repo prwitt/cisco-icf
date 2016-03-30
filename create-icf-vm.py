@@ -8,6 +8,7 @@ version: 0.1
 
 """
 # Currently the script is written to support VM with single interface only
+# Requires ICFD 3.x northbound APIs, or newer releases
 
 import json
 import requests
@@ -24,8 +25,8 @@ icf_usr_network = 'mgmt-net' #Inform the network you want to use
 icf_usr_vm_name = 'vm17-hello-py' #Inform the VM name you want
 icf_usr_psa = 'true' #Inform wheter you want to access PSA or not, accepted values = true or false
 
-print (time.strftime("%Y-%m-%d %H:%M:%S")) + " -- Make sure you updated variables from lines 19-25"
-print (time.strftime("%Y-%m-%d %H:%M:%S")) + " -- Comment lines 27-29 of the script"
+print (time.strftime("%Y-%m-%d %H:%M:%S")) + " -- Make sure you updated variables from lines 20-26"
+print (time.strftime("%Y-%m-%d %H:%M:%S")) + " -- Comment lines 28-30 of the script"
 exit()
 
 ##############################################################
