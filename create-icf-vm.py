@@ -105,7 +105,7 @@ def list_vdc():
 					icf_usr_vdc_oid = element0
 
 ##############################################################
-# list_img()
+# list_catalog()
 # This function lists the ICFD catalog item OID
 # inputs: token and cookie from get_keys() 
 # returns: catalog items OID
